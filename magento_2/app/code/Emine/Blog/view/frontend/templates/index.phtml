@@ -1,0 +1,48 @@
+<?php
+
+
+/** @var $block Emine\Blog\Block\Index */
+?>
+
+<?php if($block->getBlogEntities()) : ?>
+<?php foreach ($block->getBlogEntities() as $content) : ?>
+
+
+
+
+        <table class="table">
+            <tbody>
+
+
+            <tr>
+                <td>Post Id</td>
+                <td><?=$content->getData('post_id') ?></td>
+            </tr>
+
+            <tr>
+                <td>Title</td>
+                <td><?=$content->getData('title') ?></td>
+            </tr>
+
+            <tr>
+                <td>Content</td>
+                <td><?=$content->getData('content') ?></td>
+            </tr>
+
+            <tr>
+                <td>Url Key</td>
+                <td><?=$content->getData('url_key') ?></td>
+            </tr>
+
+            <tr>
+                <td>Created At</td>
+                <td><?=$content->getData('created_at') ?></td>
+            </tr>
+
+
+            </tbody>
+        </table>
+
+<?php endforeach; ?>
+
+<?php endif; ?>
