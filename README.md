@@ -4,9 +4,9 @@ Projemizin genel amacı bir veritabanı oluşturup oluşturulan veritabanından 
 
 Veritabanı oluşturmak için etc altında db_schema.xml dosyası oluşturdum bu dosyada veritabanı configürasyonlarını yaptım ve oluşturduğum tablonun içini phpMyAdminden manuel olarak doldurdum.
 
-![image](https://user-images.githubusercontent.com/71029128/193885314-216ee78f-d1a5-495f-931d-86a0e32febf3.png)
+![image](https://user-images.githubusercontent.com/71029128/194030937-2cd51105-f091-4480-9d88-1fa7e5753dda.png)
 
-Oluşturulan veritabanndan verileri admin panelinde görebilmek için adminhtml altından menü.xml doyası ve menü tagı altına "Emine" adında title oluşturdum daha sonra aynı şekilde "Blog" adında title oluşturdum. Action olarak gitmesini istediğim url'i yazdım ve "Emine" altında olacağı için parent name'ini "Emine" nin resource ü olarak tanımladım.
+Oluşturulan veritabanından verileri admin panelinde görebilmek için adminhtml altından menü.xml doyası ve menü tagı altına "Emine" adında title oluşturdum daha sonra aynı şekilde "Blog" adında title oluşturdum. Action olarak gitmesini istediğim url'i yazdım ve "Emine" altında olacağı için parent name'ini "Emine" nin resource ü olarak tanımladım.
 
 ![image](https://user-images.githubusercontent.com/71029128/193889290-07df8e3c-bfe9-4e4d-8108-dd1bfaa4951e.png)
 
